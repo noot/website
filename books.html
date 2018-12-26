@@ -1,8 +1,10 @@
 <html>
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>elizabeth</title>
-    <style type="text/css">body {
+    <style type="text/css">
+    body {
       background-color: #42032f;
+      overflow: hidden;
     }
 
   .zoom {
@@ -57,7 +59,7 @@
     top: 0px;
     left: 0px;
     background:#4c2d42;
-    width: 75px;
+    width: 90px;
     height: 100%;
   }
 
@@ -72,6 +74,7 @@
     line-height: 20px; 
     overflow: auto;  
     margin-left: 90px;
+    width: 90%;
   }
 
   a {
@@ -94,10 +97,22 @@
       color: #ff84c9;
   }
 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
   .column {
-    padding-left: 20px; 
-    padding-right: 200px; 
-    padding-top: 3px;  
+    float: left;
+    width: 50%; 
+    padding-left: 0px;
+  }
+
+  .column2 {
+    float: left;
+    width: 50%; 
+    padding-left: 0px;
   }
 
     </style>
@@ -107,16 +122,34 @@
     <div class="left">⟠<br>
       <a href="/">main</a><br>
       <a href="/projects.html">projects</a><br>
+      <a href="/resources.html">resources</a><br>
       <a href="/books.html">books</a><br>
       <a href="/other.html">other</a><br>
     </div>
 
     <div class="main">
       <b>books read in 2018</b><br>
-      <div class="column">hello</div>
-      <div class="column">hello again</div>
-
-      <b>books to read</b><br>
+      <div class="row">
+        <div class="column">
+          <t>non-fiction</t><br>
+          The Myth of the Eternal Return / Mircea Eliade<br>
+        </div>
+        <div class="column2">
+          <t>fiction</t><br>
+          stuff~
+        </div>
+      </div>
+      <br><b>books to read</b><br>
+      <div class="row">
+        <div class="column">
+          <t>non-fiction</t><br>
+          fill in soon~<br>
+        </div>
+        <div class="column2">
+          <t>fiction</t><br>
+          stuff~
+        </div>
+      </div>
     </div>
 
   </body>

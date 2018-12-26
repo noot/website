@@ -1,0 +1,141 @@
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>elizabeth</title>
+    <style type="text/css">
+    body {
+      background-color: #42032f;
+      overflow: hidden;
+    }
+
+    .zoom {
+        padding: 0px;
+        transition: transform .2s;
+        background-color: #ffffff;
+        width: 20px;
+        height: 20px;
+        /* margin: 0 auto; */
+        /*margin: 200px;*/
+        position: fixed;
+        top: 100;
+        right: 100;
+        z-index: 999;
+    }
+
+    .zoom:hover {
+        -ms-transform: scale(10); /* IE 9 */
+        -webkit-transform: scale(10); /* Safari 3-8 */
+        transform: scale(10); 
+    } 
+
+    .top {
+      position: absolute;
+      padding-left: 300px;
+      padding-right: 0;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color:#ffffff;
+      font-family: monospace;
+      font-size: 10pt;
+      line-height: 15px;
+      margin: 0px; 
+      top: 0px;
+      left: 0px;
+      background:#4c2d42;
+      width: 100vw;
+    }
+
+    .left {
+      position: absolute;
+      padding-left: 0px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      color:#ffffff;
+      text-align: right;
+      font-family: monospace;
+      font-size: 10pt;
+      line-height: 20px;
+      margin: 0px; 
+      top: 0px;
+      left: 0px;
+      background:#4c2d42;
+      width: 90px;
+      height: 100%;
+    }
+
+    .main {
+      position: absolute;
+      padding-left: 20px; 
+      padding-right: 200px; 
+      padding-top: 3px; 
+      color:#ffffff; 
+      font-family: monospace; 
+      font-size: 10pt; 
+      line-height: 20px; 
+      overflow: auto;  
+      margin-left: 90px;
+      width: 90%;
+    }
+
+    a {
+        color: #B7F6F6;
+    }
+
+    a:visited { 
+        color: #e9d6ff;
+    }
+
+    t {
+        color: #cac1ff;
+    }
+
+    b {
+      color: #ff84c9; 
+    }
+
+    h2 {
+        color: #ff84c9;
+    }
+
+    .column {
+      padding-left: 20px; 
+      padding-right: 200px; 
+      padding-top: 3px;  
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="left">⟠<br>
+      <a href="/">main</a><br>
+      <a href="/projects.html">projects</a><br>
+      <a href="/resources.html">resources</a><br>
+      <a href="/books.html">books</a><br>
+      <a href="/other.html">other</a><br>
+    </div>
+
+
+    <div class="main">
+      <b>resources</b><br>
+      <b><t>cryptography</t></b><br>
+      <a href="https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_4.pdf">A Graduate Course in Applied Cryptography</a> a textbook by Dan Boneh and Victor Shoup<br>
+      <a href="http://khosach.info/store/msresource/it/book/Understanding-Cryptography.pdf">Understanding Cryptography</a> a textbook by Christof Paar and Jan Pelzl<br>
+      <a href="https://pdfs.semanticscholar.org/a30e/6c98025bf7eca216cd8cab1b307de9c9a8be.pdf?_ga=2.237147584.1733805793.1545845337-862166340.1545845337">Cryptography lecture notes</a> includes zero knowledge proof section<br>
+      <a href="https://crypto.stanford.edu/~dabo/pubs/papers/BLSmultisig.html">BLS Signatures</a> original paper<br>
+      <a href="https://people.csail.mit.edu/rivest/pubs/RST01.pdf">How to leak a secret</a> original ring signature paper<br>
+      <a href="https://eprint.iacr.org/2015/1098.pdf">Ring Confidential Transactions</a> linkable ring signatures using elliptic curve crypto by Monero Research Labs<br>
+      <a href="https://eprint.iacr.org/2005/133.pdf">Pairing-Friendly Elliptic Curves of Prime Order</a> BN curve paper<br>
+      <a href="https://cs.jhu.edu/~sdoshi/crypto/papers/shamirturing.pdf">How to share a secret</a> how to compute a value knowing k pieces, but not with k-1 pieces<br>
+
+      <br><b><t>math</t></b><br>
+      <a href="http://abstract.ups.edu/download/aata-original.pdf">Abstract Algebra: Theory and Applications</a>a textbook on abstract algebra, group theory<br>
+
+      <br><b><t>other</t></b><br>
+      <a href="https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf">The Byzantine Generals Problem</a> original paper on Byzantine fault tolerance<br>
+      <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.3871&rep=rep1&type=pdf">The 12 Commandments of Synchronization</a> how to do concurrency correctly<br>
+      <a href="http://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf">The Little Book of Semaphores</a> easy to read textbook introducing concurrency<br>
+    </div>
+
+  </body>
+</html>
