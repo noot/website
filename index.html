@@ -1,124 +1,121 @@
 <html>
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>elizabeth</title>
-    <style type="text/css">body {
-      background-color: #42032f;
+    <style type="text/css">
+    body {
+      background-color: #300A24;
+      overflow: hidden;
     }
 
-  .zoom {
-      padding: 0px;
-      transition: transform .2s;
-      background-color: #ffffff;
-      width: 20px;
-      height: 20px;
-      /* margin: 0 auto; */
-      /*margin: 200px;*/
-      position: fixed;
-      top: 100;
-      right: 100;
-      z-index: 999;
-  }
+    .top {
+      position: absolute;
+      padding-left: 300px;
+      padding-right: 0;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color:#ffffff;
+      font-family: monospace;
+      font-size: 10pt;
+      line-height: 15px;
+      margin: 0px; 
+      top: 0px;
+      left: 0px;
+      background:#4c2d42;
+      width: 100vw;
+    }
 
-  .zoom:hover {
-      -ms-transform: scale(10); /* IE 9 */
-      -webkit-transform: scale(10); /* Safari 3-8 */
-      transform: scale(10); 
-  } 
+    .left {
+      position: absolute;
+      padding-left: 0px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      color:#ffffff;
+      text-align: right;
+      font-family: monospace;
+      font-size: 10pt;
+      line-height: 20px;
+      margin: 0px; 
+      top: 0px;
+      left: 0px;
+      background:#4c2d42;
+      width: 90px;
+      height: 100%;
+    }
 
-  .top {
-    position: absolute;
-    padding-left: 300px;
-    padding-right: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color:#ffffff;
-    font-family: monospace;
-    font-size: 10pt;
-    line-height: 15px;
-    margin: 0px; 
-    top: 0px;
-    left: 0px;
-    background:#4c2d42;
-    width: 100vw;
-  }
+    .main {
+      position: absolute;
+      padding-left: 20px; 
+      padding-right: 200px; 
+      padding-top: 3px; 
+      color:#ffffff; 
+      font-family: monospace; 
+      font-size: 10pt; 
+      line-height: 20px; 
+      overflow: auto;  
+      margin-left: 90px;
+    }
 
-  .left {
-    position: absolute;
-    padding-left: 0px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    color:#ffffff;
-    text-align: right;
-    font-family: monospace;
-    font-size: 10pt;
-    line-height: 20px;
-    margin: 0px; 
-    top: 0px;
-    left: 0px;
-    background:#4c2d42;
-    width: 90px;
-    height: 100%;
-  }
+    a {
+        color: #B7F6F6;
+    }
 
-  .main {
-    position: absolute;
-    padding-left: 20px; 
-    padding-right: 200px; 
-    padding-top: 3px; 
-    color:#ffffff; 
-    font-family: monospace; 
-    font-size: 10pt; 
-    line-height: 20px; 
-    overflow: auto;  
-    margin-left: 90px;
-  }
+    a:visited { 
+        color: #e9d6ff;
+    }
 
-  a {
-      color: #B7F6F6;
-  }
+    t {
+        color: #cac1ff;
+    }
 
-  a:visited { 
-      color: #e9d6ff;
-  }
+    b {
+      color: #ff84c9; 
+    }
 
-  t {
-      color: #cac1ff;
-  }
+    h2 {
+        color: #ff84c9;
+    }
+    .column {
+      float: left;
+      width: 300px; 
+      padding-left: 0px;
+    }
 
-  b {
-    color: #ff84c9; 
-  }
-
-  h2 {
-      color: #ff84c9;
-  }
+    .column2 {
+      float: left;
+      width: 60%;
+      padding-left: 0px;
+    }
     </style>
   </head>
 
   <body>
     <div class="left">⟠<br>
-      <a href="/">main</a><br>
-      <a href="/projects.html">projects</a><br>
-      <a href="/resources.html">resources</a><br>
-      <a href="/books.html">books</a><br>
-      <a href="/other.html">other</a><br>
+      <a href="index.html">main</a><br>
+      <a href="projects.html">projects</a><br>
+      <a href="resources.html">resources</a><br>
+      <a href="other.html">other</a><br>
     </div>
 
     <div class="main">
-      <b>elizabeth</b><br>
-
-      <t>interests </t> technology, open-source software, decentralized systems, cryptography, reading, sci-fi, anime, dreams, music, plants, rats<br>
-
-      <t>education </t> UofT EngSci Electrical &amp; Computer Engineering<br>
-
-      <t>work </t> ChainSafe Systems<br>
-
-      <t>location </t> Toronto, Canada<br>
-
-      <b>contact</b>
-
-      elizabeth@chainsafe.io / <a href="https://github.com/noot">github</a> / <a href="https://keybase.io/leth">keybase</a>&nbsp;<br>
+        <div class="column">
+        <img src="https://avatars1.githubusercontent.com/u/36753753?s=460&v=4" width=280px height=280px>
+        </div>
+        <div class="column2">
+          <b>elizabeth</b><br>
+    
+          <t>interests </t> open-source software, decentralized systems, privacy, cryptography, sci-fi<br>
+    
+          <t>education </t> UofT EngSci Electrical &amp; Computer Engineering<br>
+    
+          <t>work </t> ChainSafe Systems<br>
+    
+          <t>location </t> Toronto, Canada<br>
+    
+          <b>contact</b>
+    
+          elizabeth@chainsafe.io / <a href="https://github.com/noot">github</a> &nbsp;<br>
+      </div>
 
     </div>
 

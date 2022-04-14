@@ -4,35 +4,12 @@
     <style type="text/css">
     body {
       overflow: hidden;
-      background-color: #42032f;
+      background-color: #300A24;
     }
 
     .screenshot {
       width: 300px;
     }
-
-    .zoom {
-        /*position: relative;*/
-        padding: 0px;
-        transition: transform .2s;
-        /*background-color: #ffffff;*/
-        /*width: 100px;*/
-        /* margin: 0 auto; */
-        /*margin: 200px;*/
-        z-index: 3;
-        /*margin-left:200px;*/
-    }
-
-    .zoom:hover {
-        -ms-transform: scale(2); /* IE 9 */
-        -webkit-transform: scale(2); /* Safari 3-8 */
-        transform: scale(10); 
-        width:10%;
-        z-index: 4;
-        /*margin-left:200px;
-        margin-top:100px;*/
-        /*transform: rotate(360deg);*/
-    } 
 
     .top {
       position: absolute;
@@ -68,7 +45,6 @@
       background:#4c2d42;
       width: 90px;
       height: 100%;
-      z-index: -1;
     }
 
     .main {
@@ -82,7 +58,6 @@
       line-height: 20px; 
       overflow: auto;  
       margin-left: 90px;
-      z-index:1;
       width:100%;
       height:100%;
     }
@@ -106,38 +81,60 @@
     h2 {
         color: #ff84c9;
     }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .column {
+      float: left;
+      width: 30%; 
+      padding-left: 0px;
+    }
+
     </style>
   </head>
 
   <body>
-    <div class="left"><div class="zoom">⟠</div><br>
-      <a href="/">main</a><br>
-      <a href="/projects.html">projects</a><br>
-      <a href="/resources.html">resources</a><br>
-      <a href="/books.html">books</a><br>
-      <a href="/other.html">other</a><br>
+    <div class="left">⟠<br>
+      <a href="index.html">main</a><br>
+      <a href="projects.html">projects</a><br>
+      <a href="resources.html">resources</a><br>
+      <a href="other.html">other</a><br>
     </div>
 
     <div class="main">
       <b>rice</b> I like to customize my desktop.
       <a href="https://github.com/noot/dotfiles">my dotfiles</a><br>
-      <t>OS: </t> Ubuntu 18.04<br>
-      <t>WM: </t> i3-gaps<br>
-      <t>bar: </t> polybar<br><br>
 
+
+      <br>
       <a href="https://i.imgur.com/U2EaASn.png"><img src="https://i.imgur.com/U2EaASn.png" class="screenshot"></a>
       <a href="https://i.imgur.com/DjhSsWw.png"><img src="https://i.imgur.com/DjhSsWw.png" class="screenshot"></a>
       <a href="https://i.imgur.com/cscG3sI.png"><img src="https://i.imgur.com/cscG3sI.png" class="screenshot"></a>
-      
-      <br><br>
+      <a href="https://i.imgur.com/cPwY79R.png"><img src="https://i.imgur.com/cPwY79R.png" class="screenshot"></a><br><br>
+
+      <t>OS: </t> Ubuntu 18.04<br>
+      <t>WM: </t> i3-gaps<br>
+      <t>bar: </t> polybar<br>
+      <t>polybar modules: </t>
+      <a href="https://github.com/Jvanrhijn/polybar-spotify">spotify</a>, 
+      <a href="https://github.com/willHol/polybar-crypto">crypto</a>, 
+      wlan, battery, date, brightness, volume<br>
+      <t>programs shown: </t>
+      <a href="https://github.com/dylanaraps/neofetch">neofetch</a>, 
+      <a href="https://github.com/ranger/ranger">ranger</a>,  
+      <a href="https://github.com/karlstav/cava">cava</a>,  
+      chromium, sublime text, gpick<br><br>
 
       <b>music</b> some songs I like~<br>
       <a href="https://www.youtube.com/watch?v=LuvLac2pykY">Hybrid Minds / Meant to Be</a><br>
       <a href="https://www.youtube.com/watch?v=XYrQC-jWMFM" target="_blank">Aphex Twin / Vordhosbn</a><br>
       <a href="https://www.youtube.com/watch?v=X70glX8WKoM">London Elektricity / Just One Second (Apex Remix)</a><br>
       <a href="https://www.youtube.com/watch?v=g9hwjQBQFIo">Nujabes / Aruarian Dance</a><br>
-      <b>pdfs</b> <br>
-      <a href="/The%20Hymn%20of%20the%20Pearl.pdf" target="_blank">The Hymn of the Pearl</a> a gnostic poem depicting the human condition<br>
+
     </div>
 
   </body>

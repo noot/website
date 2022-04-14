@@ -1,125 +1,126 @@
 <html>
   <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>elizabeth</title>
-    <style type="text/css">body {
-      background-color: #42032f;
+    <style type="text/css">
+    body {
+      background-color: #300A24;
+      overflow: hidden;
     }
 
-  .zoom {
-      padding: 0px;
-      transition: transform .2s;
-      background-color: #ffffff;
-      width: 20px;
-      height: 20px;
-      /* margin: 0 auto; */
-      /*margin: 200px;*/
-      position: fixed;
-      top: 100;
-      right: 100;
-      z-index: 999;
-  }
+    .zoom {
+        padding: 0px;
+        transition: transform .2s;
+        background-color: #ffffff;
+        width: 20px;
+        height: 20px;
+        /* margin: 0 auto; */
+        /*margin: 200px;*/
+        position: fixed;
+        top: 100;
+        right: 100;
+        z-index: 999;
+    }
 
-  .zoom:hover {
-      -ms-transform: scale(10); /* IE 9 */
-      -webkit-transform: scale(10); /* Safari 3-8 */
-      transform: scale(10); 
-  } 
+    .zoom:hover {
+        -ms-transform: scale(10); /* IE 9 */
+        -webkit-transform: scale(10); /* Safari 3-8 */
+        transform: scale(10); 
+    } 
 
-  .top {
-    position: absolute;
-    padding-left: 300px;
-    padding-right: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color:#ffffff;
-    font-family: monospace;
-    font-size: 10pt;
-    line-height: 15px;
-    margin: 0px; 
-    top: 0px;
-    left: 0px;
-    background:#4c2d42;
-    width: 100vw;
-  }
+    .top {
+      position: absolute;
+      padding-left: 300px;
+      padding-right: 0;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color:#ffffff;
+      font-family: monospace;
+      font-size: 10pt;
+      line-height: 15px;
+      margin: 0px; 
+      top: 0px;
+      left: 0px;
+      background:#4c2d42;
+      width: 100vw;
+    }
 
-  .left {
-    position: absolute;
-    padding-left: 0px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    color:#ffffff;
-    text-align: right;
-    font-family: monospace;
-    font-size: 10pt;
-    line-height: 20px;
-    margin: 0px; 
-    top: 0px;
-    left: 0px;
-    background:#4c2d42;
-    width: 90px;
-    height: 100%;
-  }
+    .left {
+      position: absolute;
+      padding-left: 0px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      color:#ffffff;
+      text-align: right;
+      font-family: monospace;
+      font-size: 10pt;
+      line-height: 20px;
+      margin: 0px; 
+      top: 0px;
+      left: 0px;
+      background:#4c2d42;
+      width: 90px;
+      height: 100%;
+    }
 
-  .main {
-    position: absolute;
-    padding-left: 20px; 
-    padding-right: 200px; 
-    padding-top: 3px; 
-    color:#ffffff; 
-    font-family: monospace; 
-    font-size: 10pt; 
-    line-height: 20px; 
-    overflow: auto;  
-    margin-left: 90px;
-  }
+    .main {
+      position: absolute;
+      padding-left: 20px; 
+      padding-right: 200px; 
+      padding-top: 3px; 
+      color:#ffffff; 
+      font-family: monospace; 
+      font-size: 10pt; 
+      line-height: 20px; 
+      overflow: auto;  
+      margin-left: 90px;
+    }
 
-  a {
-      color: #B7F6F6;
-  }
+    a {
+        color: #B7F6F6;
+    }
 
-  a:visited { 
-      color: #e9d6ff;
-  }
+    a:visited { 
+        color: #e9d6ff;
+    }
 
-  t {
-      color: #cac1ff;
-  }
+    t {
+        color: #cac1ff;
+    }
 
-  b {
-    color: #ff84c9; 
-  }
+    b {
+      color: #ff84c9; 
+    }
 
-  h2 {
-      color: #ff84c9;
-  }
+    h2 {
+        color: #ff84c9;
+    }
 
-  .column {
-    padding-left: 20px; 
-    padding-right: 200px; 
-    padding-top: 3px;  
-  }
+    .column {
+      padding-left: 20px; 
+      padding-right: 200px; 
+      padding-top: 3px;  
+    }
 
     </style>
   </head>
 
   <body>
     <div class="left">⟠<br>
-      <a href="/">main</a><br>
-      <a href="/projects.html">projects</a><br>
-      <a href="/resources.html">resources</a><br>
-      <a href="/books.html">books</a><br>
-      <a href="/other.html">other</a><br>
+      <a href="index.html">main</a><br>
+      <a href="projects.html">projects</a><br>
+      <a href="resources.html">resources</a><br>
+      <a href="other.html">other</a><br>
     </div>
 
 
     <div class="main">
       <b>projects</b><br>
-      <a href="https://github.com/noot/ring-go">ring-go</a> an implementation of linkable ring signatures<br>
-      <a href="https://github.com/noot/ring-mixer">ring-mixer</a> [wip] a ring-signature based smart contract mixer for Ethereum<br>
-      <a href="https://github.com/ChainSafeSystems/bls-js">bls-js</a> [wip] BLS signature implementation in javascript<br>
-      <a href="https://github.com/ChainSafeSystems/ChainBridge">ChainBridge</a> a cross-chain EVM bridge written in golang<br>
-      <a href="https://github.com/ChainSafeSystems/leth">leth</a> golang tools for compiling, deploying, and interacting with smart contracts<br>
+      <a href="https://github.com/ChainSafe/gossamer">gossamer</a> Polkadot Runtime Environment implementation in Go <br>
+      <a href="https://github.com/ChainSafe/g-schnorrkel">go-schnorrkel</a> schnorr signatures over ristretto255 in Go <br>
+      <a href="https://github.com/noot/atomic-swap">atomic-swap</a> ETH-XMR atomic swap protocol and implementation <br>
+      <a href="https://github.com/noot/ring-go">ring-go</a> an implementation of linkable ring signatures in Go<br>
+      <a href="https://github.com/ChainSafe/go-libp2p-noise">go-libp2p-noise</a> implemenation of the libp2p Noise handshake protocol specification<br>
       <t></t><br>
     </div>
 
